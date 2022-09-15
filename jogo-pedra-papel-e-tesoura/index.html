@@ -82,69 +82,70 @@
       <a href="../desafios-codigo/index.html">Desafios Código</a>
       <a href="../jogo-da-memoria/index.html">Jogo da Memória</a>
       <a href="../jogo-da-velha/index.html">Jogo da Velha</a>
-      <a class="active" href="../jogo-lost-decade">Jogo lost decade</a>
-      <a href="../jogo-da-pedra-papel-e-tesoura/index.html"
+      <a href="../jogo-lost-decade">Jogo lost decade</a>
+      <a class="active" href="#jogo-da-pedra-papel-e-tesoura"
         >Jogo Pedra Papel e Tesoura</a
       >
       <a href="../jogo-da-cobra/index.html">Jogo da Cobra</a>
     </div>
     <div class="content">
-    <div id="principal">
-      <h1 id="titulo">Pedra Papel Tesoura</h1>
-      <div id="placar">
-        <div id="jogador">
-          <h2 id="jogador-nome">Jogador</h2>
-          <span id="jogador-pontos">0</span>
-          <ul id="jogador-escolha">
-            <li>
-              <a id="jogador-escolha-1" onclick="jogar(1)"
-                ><img src="images/pedra.png" alt="pedra"
-              /></a>
-            </li>
-            <li>
-              <a id="jogador-escolha-2" onclick="jogar(2)"
-                ><img src="images/papel.png" alt="papel"
-              /></a>
-            </li>
-            <li>
-              <a id="jogador-escolha-3" onclick="jogar(3)"
-                ><img src="images/tesoura.png" alt="tesoura"
-              /></a>
-            </li>
-          </ul>
-        </div>
-        <!-- the end jogador -->
+      <div id="principal">
+        <h1 id="titulo">Pedra Papel Tesoura</h1>
+        <div id="placar">
+          <div id="jogador">
+            <h2 id="jogador-nome">Jogador</h2>
+            <span id="jogador-pontos">0</span>
+            <ul id="jogador-escolha">
+              <li>
+                <a id="jogador-escolha-1" onclick="jogar(1)"
+                  ><img src="images/pedra.png" alt="pedra"
+                /></a>
+              </li>
+              <li>
+                <a id="jogador-escolha-2" onclick="jogar(2)"
+                  ><img src="images/papel.png" alt="papel"
+                /></a>
+              </li>
+              <li>
+                <a id="jogador-escolha-3" onclick="jogar(3)"
+                  ><img src="images/tesoura.png" alt="tesoura"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- the end jogador -->
 
-        <div id="versus">vs</div>
+          <div id="versus">vs</div>
 
-        <div id="computador">
-          <h2 id="computador-nome">Computador</h2>
-          <span id="computador-pontos">0</span>
-          <ul id="computador-escolha">
-            <li>
-              <a id="computador-escolha-1"
-                ><img src="images/pedra.png" alt="pedra"
-              /></a>
-            </li>
-            <li>
-              <a id="computador-escolha-2"
-                ><img src="images/papel.png" alt="papel"
-              /></a>
-            </li>
-            <li>
-              <a id="computador-escolha-3"
-                ><img src="images/tesoura.png" alt="tesoura"
-              /></a>
-            </li>
-          </ul>
+          <div id="computador">
+            <h2 id="computador-nome">Computador</h2>
+            <span id="computador-pontos">0</span>
+            <ul id="computador-escolha">
+              <li>
+                <a id="computador-escolha-1"
+                  ><img src="images/pedra.png" alt="pedra"
+                /></a>
+              </li>
+              <li>
+                <a id="computador-escolha-2"
+                  ><img src="images/papel.png" alt="papel"
+                /></a>
+              </li>
+              <li>
+                <a id="computador-escolha-3"
+                  ><img src="images/tesoura.png" alt="tesoura"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- the end computador -->
         </div>
-        <!-- the end computador -->
+        <!-- the end placar -->
+        <div id="mensagens">&nbsp;</div>
       </div>
-      <!-- the end placar -->
-      <div id="mensagens">&nbsp;</div>
-    </div></div>
+    </div>
     <!-- the end principal -->
-    
+
     <script src="./main.js"></script>
   </body>
 </html>
