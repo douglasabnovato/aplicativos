@@ -7,14 +7,15 @@
 </p>  
 
 Praticar e estudar os fundamentos de javascript.
+Criado um template para demonstrar esses projetos.
 
 - [x] Home
 - [x] Formulário Login
 - [x] Home Instagram
 - [x] Uma Lâmpada
 - [x] Desafios Código
-- [ ] Jogo da Memória
-- [ ] Jogo da Velha
-- [ ] Jogo Lost Decade
-- [ ] Jogo Pedra Papel e Tesoura
-- [ ] Jogo da Cobra 
+- [x] Jogo da Memória
+- [x] Jogo da Velha
+- [x] Jogo Lost Decade
+- [x] Jogo Pedra Papel e Tesoura
+- [x] Jogo da Cobra 

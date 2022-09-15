@@ -34,7 +34,7 @@
 
 #### Anotações   
 
-- Fonte do projeto: [André Soares ](https://www.youtube.com/watch?v=Rk4J-d7sPKQ)
+- Fonte do projeto: [Memory Game in Vanilla JavaScript](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae)
 
 ---
 <br>

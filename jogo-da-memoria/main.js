@@ -1,74 +1,60 @@
-const cardBoard = document.querySelector("#cardboard");
-
-const images = [
-  "angular.svg",
-  "aurelia.svg",
-  "backbone.svg",
-  "ember.svg",
-  "react.svg",
-  "vue.svg",
-];
-
-console.log(images)
-
-let cardHTML = "";
-
-images.forEach((img) => {
-    console.log(img)
-    console.log(`./img/${img}`)
-  cardHTML += `
-        <div class="memory-card" data-card="${img}">
-            <img class="front-face" src="./img/${img}">
-            <img class="back-face" src="./img/js-badge.svg">
-        </div>
-    `;
-});
-
-cardBoard.innerHTML = cardHTML + cardHTML;
-
 const cards = document.querySelectorAll(".memory-card");
 
+let hasFlippedCard = false;
+let lockBoard = false;
 let firstCard, secondCard;
-let lockCard = false;
 
 function flipCard() {
-  if (lockCard) return false;
+  if (lockBoard) return;
+  if (this === firstCard) return;
+
   this.classList.add("flip");
-  if (!firstCard) {
+
+  if (!hasFlippedCard) {
+    hasFlippedCard = true;
     firstCard = this;
-    return false;
+
+    return;
   }
+
   secondCard = this;
   checkForMatch();
 }
 
 function checkForMatch() {
-  let isMatch = firstCard.dataset.card === secondCard.dataset.card;
-  !isMatch ? disableCards() : resetCards();
+  let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
+
+  isMatch ? disableCards() : unflipCards();
 }
 
 function disableCards() {
-  lockCard = true;
+  firstCard.removeEventListener("click", flipCard);
+  secondCard.removeEventListener("click", flipCard);
+
+  resetBoard();
+}
+
+function unflipCards() {
+  lockBoard = true;
+
   setTimeout(() => {
     firstCard.classList.remove("flip");
     secondCard.classList.remove("flip");
-    resetCards();
-  }, 1000);
+
+    resetBoard();
+  }, 1500);
+}
+
+function resetBoard() {
+  [hasFlippedCard, lockBoard] = [false, false];
+  [firstCard, secondCard] = [null, null];
 }
 
 (function shuffle() {
   cards.forEach((card) => {
-    let rand = Math.floor(Math.random() * 12);
-    card.style.order = rand;
+    let randomPos = Math.floor(Math.random() * 12);
+    card.style.order = randomPos;
   });
 })();
-
-function resetCards(isMatch = false) {
-  if (isMatch) {
-    firstCard.removeEventListener("clip", flipCard);
-    secondCard.removeEventListener("clip", flipCard);
-  }
-  [firstCard, secondCard, lockCard] = [null, null, false];
-}
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
