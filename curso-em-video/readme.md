@@ -22,4 +22,4 @@
   <img alt="versão 1.0 do projeto" title="#FundamentosdoJavascript" src="../.github/curso-em-video/verificador-idade.jpg" width="400px">
 </p> 
 
-Instruções do curso em vídeo com o Gustavo Guanabara.
+Fonte: Instruções do Curso em Vídeo por Gustavo Guanabara.
