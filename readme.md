@@ -6,7 +6,7 @@
   <img alt="versão 1 do projeto" title="#Fundamentos-de-Javascript" src="./.github/menu-responsive.jpg" height="400px">
 </p>  
 
-- Praticar e estudar os fundamentos de javascript.
+Praticar e estudar os fundamentos de javascript.
 
 - [x] Home
 - [x] Formulário Login
