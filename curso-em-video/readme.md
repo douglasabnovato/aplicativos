@@ -6,6 +6,10 @@
     <img alt="versão lts do projeto" title="#FundamentosdoJavascript" src="../.github/curso-em-video/verificador-idade.jpg">
 </h1>
 
+### Instrução de execução
+
+- `Open with Live Server` no arquivo index.html
+
 ### Introdução aos Fundamentos do Javascript
 
 - [x] tarefa 1 - Calcular Tabuada

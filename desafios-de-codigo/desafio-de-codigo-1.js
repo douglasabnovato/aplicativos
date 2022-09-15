@@ -10,7 +10,7 @@ const main = (params) => {
         result = result - allFats[i]
     } 
     
-    //console.log(result)
+    console.log(params, result)
     return result
     
 }
