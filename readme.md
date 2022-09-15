@@ -3,10 +3,10 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Fundamentos-de-Javascript" src="./.github/tela-1.jpg" height="400px">
+  <img alt="versão 1 do projeto" title="#Fundamentos-de-Javascript" src="./.github/menu-responsive.jpg" height="400px">
 </p>  
 
-- Praticar e estudar os fundamentos de javascript.
+Praticar e estudar os fundamentos de javascript.
 
 - [x] Home
 - [x] Formulário Login
