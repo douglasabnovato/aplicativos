@@ -9,13 +9,9 @@ const images = [
   "vue.svg",
 ];
 
-console.log(images)
-
 let cardHTML = "";
 
 images.forEach((img) => {
-    console.log(img)
-    console.log(`./img/${img}`)
   cardHTML += `
         <div class="memory-card" data-card="${img}">
             <img class="front-face" src="./img/${img}">
