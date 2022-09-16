@@ -19,3 +19,7 @@ Criado um template para demonstrar esses projetos.
 - [x] Jogo Lost Decade
 - [x] Jogo Pedra Papel e Tesoura
 - [x] Jogo da Cobra 
+
+Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
+
+Fonte do projeto na [Rocketseat](https://www.rocketseat.com.br/).
