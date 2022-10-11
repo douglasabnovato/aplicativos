@@ -2,12 +2,14 @@
 
 Criado um template para reuniar em uma aplicação responsiva doas funcionalidades: stopwatch e kanban.
 
+---  
+
 <h4 align="center"> 
 	🚧 Date Stopwatch 🚀
 </h4> 
 
 <h1 align="center">
-    <img alt="Cronometro online salvando dados no navegador" title="#DateStopwatch " src="./.github/template-1.jpg" />
+    <img alt="Cronometro online salvando dados no navegador" title="#DateStopwatch " src="./.github/date-stopwatch-template-1.jpg" />
 </h1>
 
 ### 💻 Sobre o projeto
