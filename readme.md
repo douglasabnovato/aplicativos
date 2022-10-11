@@ -1,4 +1,10 @@
-### Aplicativos
+<h4 align="center"> 
+	🚧 Aplicativos 🚀
+</h4> 
+
+<h1 align="center">
+    <img alt="template para reuniar os dois projetos" title="#Aplicativos " src="./.github/tela-1.jpg" />
+</h1>
 
 Criado um template Responsive Design para reunir em uma aplicação duas funcionalidades criadas com html, css e javascript: stopwatch e kanban.
 
