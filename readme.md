@@ -2,13 +2,13 @@
 
 Criado um template para reuniar em uma aplicação responsiva doas funcionalidades: stopwatch e kanban.
 
-<h1 align="center">
-    <img alt="Cronometro online salvando dados no navegador" title="#DateStopwatch " src="./.github/template-1.jpg" />
-</h1>
-
 <h4 align="center"> 
 	🚧 Date Stopwatch 🚀
 </h4> 
+
+<h1 align="center">
+    <img alt="Cronometro online salvando dados no navegador" title="#DateStopwatch " src="./.github/template-1.jpg" />
+</h1>
 
 ### 💻 Sobre o projeto
 
@@ -59,16 +59,13 @@ Criado um template para reuniar em uma aplicação responsiva doas funcionalidad
 
 ---  
 
-Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
-
+<h4 align="center"> 
+	🚧 Kanban Board 🚀
+</h4> 
 
 <h1 align="center">
     <img alt="Um kanban de tarefas" title="#KanbanBoard" src="./.github/kanban-board-template-1.jpg" />
 </h1>
-
-<h4 align="center"> 
-	🚧 Kanban Board 🚀
-</h4> 
 
 ### 💻 Sobre o projeto
 
