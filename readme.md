@@ -8,6 +8,24 @@ Criado um template Responsive Design para reunir em uma aplicação duas funcion
 - [x] responsividade
 - [ ] favicon
 
+#### Telas
+
+- desktop
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="template responsive" title="#templateResponsive" src="./.github/tela-1.jpg" width="400px">
+  <img alt="template responsive" title="#templateResponsive" src="./.github/tela-2.jpg" width="400px">
+  <img alt="template responsive" title="#templateResponsive" src="./.github/tela-3.jpg" width="400px">
+</p>
+
+- mobile
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="template responsive" title="#templateResponsive" src="./.github/tela-1-2.jpg" height="400px">
+  <img alt="template responsive" title="#templateResponsive" src="./.github/tela-2-2.jpg" height="400px">
+  <img alt="template responsive" title="#templateResponsive" src="./.github/tela-3-2.jpg" height="400px">
+</p>
+
 ---  
 
 <h4 align="center"> 
