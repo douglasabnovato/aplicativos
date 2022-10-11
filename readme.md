@@ -2,6 +2,12 @@
 
 Criado um template Responsive Design para reunir em uma aplicação duas funcionalidades criadas com html, css e javascript: stopwatch e kanban.
 
+#### Requisitos
+
+- [x] design personalizado
+- [x] responsividade
+- [ ] favicon
+
 ---  
 
 <h4 align="center"> 
