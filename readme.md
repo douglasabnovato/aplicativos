@@ -1,6 +1,6 @@
 ### Aplicativos
 
-Criado um template para reuniar em uma aplicação responsiva doas funcionalidades: stopwatch e kanban.
+Criado um template Responsive Design para reunir em uma aplicação duas funcionalidades criadas com html, css e javascript: stopwatch e kanban.
 
 ---  
 
