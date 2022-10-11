@@ -14,6 +14,16 @@ Criado um template Responsive Design para reunir em uma aplicação duas funcion
 - [x] responsividade
 - [ ] favicon
 
+- gradientes
+````css
+    background: rgb(255, 212, 123);
+    background: radial-gradient(
+        circle,
+        rgba(255, 212, 123, 1) 0%,
+        rgba(255, 71, 145, 1) 100%
+    );
+````
+
 #### Telas
 
 - desktop
