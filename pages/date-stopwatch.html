@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -72,26 +72,41 @@
         }
       }
     </style>
-    <title>Aplicativos</title>
+    <title>Date StopWatch</title>
+    <link rel="stylesheet" href="../styles/date-stopwatch.css" />
   </head>
   <body>
     <div class="header">
       <a href="#default" class="logo"
-        ><img src="./assets/logo.jpg" width="100px" alt=""
+        ><img src="../assets/logo.jpg" width="100px" alt=""
       /></a>
       <div class="header-right">
-        <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
-        <a href="./pages/kanban-board.html"
+        <a href="../index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="./kanban-board.html"
           ><i class="fa fa-fw fa-envelope"></i>Kanban Board</a
         >
-        <a href="./pages/date-stopwatch.html"
+        <a class="active" href="#"
           ><i class="fa fa-fw fa-user"></i>Date StopWatch</a
         >
       </div>
     </div>
     <div class="container" id="home" style="padding-left: 20px">
-      <h1>Aplicativos</h1>
-      <p>Desenvolvidos para solucionar seu problema.</p>
+      <header>
+        <h1>Date StopWatch</h1>
+      </header>
+      <main>
+        <div class="stopwatch">
+          <section class="config">
+            <input type="date" value="2023-01-01" />
+            <button class="start" onclick="start()">VAI</button>
+            <button class="stop" onclick="stop()">Resetar</button>
+          </section>
+          <section class="emoji">
+            <h1>&#x1F914;</h1>
+          </section>
+        </div>
+      </main>
     </div>
+    <script src="../javascript/date-stopwatch.js"></script>
   </body>
 </html>
