@@ -146,4 +146,6 @@ Criado um template Responsive Design para reunir em uma aplicação duas funcion
 
 ---  
 
-Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
+Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/) :wave: 
+
+Fonte do Projeto: [Driven](https://www.driven.com.br/)
