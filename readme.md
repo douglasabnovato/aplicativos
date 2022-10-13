@@ -16,7 +16,6 @@ Criado um template para demonstrar esses projetos.
 - [x] Desafios Código
 - [x] Curso em Vídeo
 - [x] DIO + Spread Fullstack Developer
-- [ ] XPEducação 
 - [x] Jogo da Memória
 - [x] Jogo da Velha
 - [x] Jogo Lost Decade
