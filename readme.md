@@ -28,7 +28,7 @@ Criado um template para demonstrar esses projetos.
 - [ ] responsividade
 - [ ] favicon
 - [ ] páginas para conteúdos
-- [ ] ícone de esconder menu
+- [ ] ícone de [esconder menu](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown)
 
 #### Referências 
 - [web.dev / Learn Responsive Design](https://web.dev/learn/design/)
