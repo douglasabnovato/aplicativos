@@ -11,7 +11,7 @@
     />
     <link rel="manifest" href="../public/manifest.json" />
     <title>Javascript</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <style>
       body {
         margin: 0;
@@ -51,6 +51,14 @@
         height: 100vh;
       }
 
+      .dropdown-content {
+        background-color: #dad6d6;
+      }
+
+      .dropdown-content a.active {
+        background-color: #79bba3;
+      }
+
       @media screen and (max-width: 700px) {
         .sidebar {
           width: 100%;
@@ -72,41 +80,57 @@
         }
       }
     </style>
+    <script>
+      function verificaNumeroPrimo(numero) {
+        var primo = 0;
+
+        for (var i = 1; i <= numero; i++) {
+          if (numero % i == 0) {
+            primo++;
+          }
+        }
+
+        if (primo == 2) {
+          console.log(`O número ${numero} é primo.`);
+        } else {
+          console.log(`O número ${numero} não é primo.`);
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="sidebar">
-      <a href="../index.html">Home</a>
-      <a href="../formulario-login/index.html">Formulário Login</a>
-      <a href="../home-instagram/index.html">Home Instagram</a>
-      <a href="../uma-lampada/index.html">Uma Lâmpada</a>
-      <a href="../desafios-codigo/index.html">Desafios Código</a>
+      <a href="../../index.html">Home</a>
+      <a href="../../formulario-login/index.html">Formulário Login</a>
+      <a href="../../home-instagram/index.html">Home Instagram</a
+      ><a href="../uma-lampada/index.html">Uma Lâmpada</a>
+
+      <div class="dropdown">
+        <a class="active dropbtn" href="../index.html">Desafios Código</a>
+        <div class="dropdown-content">
+          <a href="../logica-in-js-multiplos/index.html">Lógica de Múltiplos</a>
+          <a class="active" href="#">Lógica de Primos</a>
+        </div>
+      </div>
+
       <a href="../curso-em-video/index.html">Curso em Vídeo</a>
       <a href="../dio-spread/index.html">DIO + Spread</a>
-      <a href="../jogo-da-memoria/index.html">Jogo da Memória</a>
-      <a class="active" href="#jogo-da-velha">Jogo da Velha</a>
-      <a href="../jogo-lost-decade/index.html">Jogo lost decade</a>
-      <a href="../jogo-pedra-papel-e-tesoura/index.html"
+      <a href="../../jogo-da-memoria/index.html">Jogo da Memória</a>
+      <a href="../../jogo-da-velha/index.html">Jogo da Velha</a>
+      <a href="../../jogo-lost-decade/index.html">Jogo lost decade</a>
+      <a href="../../jogo-pedra-papel-e-tesoura/index.html"
         >Jogo Pedra Papel e Tesoura</a
       >
-      <a href="#jogo-da-cobra">Jogo da Cobra</a>
+      <a href="../../jogo-da-cobra/index.html">Jogo da Cobra</a>
     </div>
     <div class="content">
-      <div id="mostrador">
-        <p>Vez do Jogador :</p>
-        <img src="./images/x.png" alt="vez do Jogador" />
-      </div>
-      <div class="tabuleiro">
-        <div id="a1" class="espaco" jogada=""></div>
-        <div id="a2" class="espaco" jogada=""></div>
-        <div id="a3" class="espaco" jogada=""></div>
-        <div id="b1" class="espaco" jogada=""></div>
-        <div id="b2" class="espaco" jogada=""></div>
-        <div id="b3" class="espaco" jogada=""></div>
-        <div id="c1" class="espaco" jogada=""></div>
-        <div id="c2" class="espaco" jogada=""></div>
-        <div id="c3" class="espaco" jogada=""></div>
-      </div>
+      <h2>DIO + Spread</h2>
+      <h1>Lógica com JS</h1>
+      <p>Calcular se determinado número é primo ou não é primo.</p>
+      <p>
+        Chamar a função verificaNumeroPrimo(numero) no console do navegador com
+        o número a ser analisado.
+      </p>
     </div>
-    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>

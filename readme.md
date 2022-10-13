@@ -13,9 +13,9 @@ Criado um template para demonstrar esses projetos.
 - [x] Formulário Login
 - [x] Home Instagram
 - [x] Uma Lâmpada
-- [ ] Desafios Código
+- [x] Desafios Código
 - [x] Curso em Vídeo
-- [ ] DIO + Spread Fullstack Developer
+- [x] DIO + Spread Fullstack Developer
 - [ ] XPEducação 
 - [x] Jogo da Memória
 - [x] Jogo da Velha

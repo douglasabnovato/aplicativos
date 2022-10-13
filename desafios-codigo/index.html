@@ -51,6 +51,10 @@
         height: 1000px;
       }
 
+      .dropdown-content {
+        background-color: #dad6d6;
+      }
+
       @media screen and (max-width: 700px) {
         .sidebar {
           width: 100%;
@@ -79,10 +83,18 @@
       <a href="../formulario-login.html">Formulário Login</a>
       <a href="../home-instagram/index.html">Home Instagram</a>
       <a href="../uma-lampada/index.html">Uma Lâmpada</a>
-      <a class="active" href="#desafios-codigo">Desafios Código</a>
+
+      <div class="dropdown">
+        <a class="active dropbtn" href="#desafios-codigo">Desafios Código</a>
+
+        <div class="dropdown-content">
+          <a href="./logica-in-js-multiplos/index.html">Lógica de Múltiplos</a>
+          <a href="./logica-in-js-primos/index.html">Lógica de Primos</a>
+        </div>
+      </div>
+
       <a href="../curso-em-video/index.html">Curso em Vídeo</a>
       <a href="../dio-spread/index.html">DIO + Spread</a>
-      <a href="../xpeducacao/index.html">XPeducacao</a>
       <a href="../jogo-da-memoria/index.html">Jogo da Memória</a>
       <a href="../jogo-da-velha/index.html">Jogo da Velha</a>
       <a href="../jogo-lost-decade/index.html">Jogo lost decade</a>
@@ -93,6 +105,7 @@
     </div>
     <div class="content">
       <h2>Rodando Javascript no Console</h2>
+      <p>A partir do arquivo configurado no script, a lógica é executada.</p>
       <ul>
         <li>desafio-de-codigo-1</li>
         <li>desafio-de-codigo-2</li>
