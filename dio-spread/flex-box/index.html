@@ -10,10 +10,20 @@
       href="../public/favicon.ico"
     />
     <link rel="manifest" href="../public/manifest.json" />
-    <title>Javascript</title>
+    <title>Javascript</title>    
+    <link rel="stylesheet" href="./styles/align-content.css" />
+    <link rel="stylesheet" href="./styles/align-items.css" />
+    <link rel="stylesheet" href="./styles/align-self.css" />    
     <link rel="stylesheet" href="./styles/display-flex.css" />
+    <link rel="stylesheet" href="./styles/flex-basis.css" />
     <link rel="stylesheet" href="./styles/flex-direction.css" />
+    <link rel="stylesheet" href="./styles/flex-flow.css" />
+    <link rel="stylesheet" href="./styles/flex-grow.css" />
+    <link rel="stylesheet" href="./styles/flex-shrink.css" />    
     <link rel="stylesheet" href="./styles/flex-wrap.css" />
+    <link rel="stylesheet" href="./styles/flex.css" />
+    <link rel="stylesheet" href="./styles/justify-content.css" />
+    <link rel="stylesheet" href="./styles/order.css" />
     <style>
       body {
         margin: 0;
@@ -110,6 +120,187 @@
     <div class="content">
       <h2>DIO + Spread</h2>
       <p>Vamos a algumas tarefas interessantes</p>
+
+      <div class="align-self">
+        <h1>row</h1>
+    <section class="flex-container align-container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum is therefore always free from repetition</div>
+        <div class="item auto">ITEM 4</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem Ipsum is therefore always free from repetition</div>
+        <div class="item end">ITEM 4</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">AAA</div>
+        <div class="item end">AAA</div>
+        <div class="item stretch">Lorem Ipsum is therefore always</div>
+    </section>
+
+    <h1>column</h1>
+
+    <section class="flex-container align-container direction">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum is therefore always free from repetition</div>
+        <div class="item auto">ITEM 4</div>
+    </section>
+
+    <section class="flex-container direction">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem Ipsum is therefore always free from repetition</div>
+        <div class="item end">ITEM 4</div>
+    </section>
+
+    <section class="flex-container direction">
+        <div class="item center">AAA</div>
+        <div class="item start">AAA</div>
+        <div class="item end">AAA</div>
+        <div class="item stretch">Lorem Ipsum is therefore always</div>
+    </section>
+      </div>
+
+      <div class="order">
+        <h1>row</h1>
+    <p>order: 0</p>
+    <div class="flex-container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">4n</div>
+        <div class="item">4m</div>
+    </div>
+
+    <p>order: diferentes</p>
+    <div class="flex-container">
+        <div class="item o3">1</div>
+        <div class="item o2">4</div>
+        <div class="item o3">4n</div>
+        <div class="item o1">4m</div>
+    </div>
+
+
+    <h1>column</h1>
+    <p>order: 0</p>
+    <div class="flex-container direction">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">4n</div>
+        <div class="item">4m</div>
+    </div>
+
+    <p>order: diferentes</p>
+    <div class="flex-container direction">
+        <div class="item o3">7</div>
+        <div class="item o1">9</div>
+        <div class="item o3">1</div>
+        <div class="item o2">4</div>
+        <div class="item o3">4n</div>
+        <div class="item o1">4m</div>
+    </div>
+      </div>
+
+      <div class="flex">
+        
+    <p>flex: 1</p>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">BBB</div>
+        <div class="item flex-1">CC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EF</div>
+    </div>
+
+    <p>flex: mix</p>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-2">BBB</div>
+        <div class="item flex-2">CC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EF</div>
+    </div>
+
+    <p>width ignorado -> basis = 0</p>
+
+    <div class="flex-container">
+        <div class="item flex-1 largura">A</div>
+        <div class="item flex-1 largura">BBB</div>
+        <div class="item flex-1 largura">CC</div>
+        <div class="item flex-1 largura">D</div>
+        <div class="item flex-1 largura">EF</div>
+    </div>
+      </div>
+
+      <div class="flex-shrink">
+        <p>flex-shrink: 1</p>
+        <div class="flex-container">
+             <div class="item s-1 fg-1">A</div>
+             <div class="item s-1 fg-1">B</div>
+             <div class="item s-1 fg-1">C</div>
+             <div class="item s-1 fg-1">D</div>
+             <div class="item s-1 fg-1">E</div>
+        </div>
+        <div class="flex-container">
+            <div class="item s-1 fg-1">A</div>
+            <div class="item s-1 fg-1">The generated</div>
+            <div class="item s-1 fg-1">C</div>
+            <div class="item s-1 fg-1">D</div>
+       </div>
+    
+       <p>flex-shrink: 0 / basis: 100px</p>
+       <div class="flex-container">
+            <div class="item s-0 fg-1">A</div>
+            <div class="item s-0 fg-1">The generated</div>
+            <div class="item s-0 fg-1">C generated</div>
+            <div class="item s-0 fg-1">C generated</div>
+            <div class="item s-0 fg-1">D</div>
+        </div>
+    
+        <p>flex-shrink: mix / basis: 100px</p>
+        <div class="flex-container">
+            <div class="item s-1 fg-1">A</div>
+            <div class="item s-2 fg-1">The generated</div>
+            <div class="item s-2 fg-1">C</div>
+            <div class="item s-3 fg-1">D</div>
+       </div></div>
+
+<div class="flex-basis">
+  
+  <p>auto</p>
+  <div class="flex-container">
+      <div class="items bauto fg-1">A</div>
+      <div class="items bauto fg-1">BBB</div>
+      <div class="items bauto fg-1">C</div>
+      <div class="items bauto fg-2">DEF</div>
+  </div>
+
+  <p>0 (zero)</p>
+  <div class="flex-container">
+       <div class="items b-0 fg-1">AAAAAAAAA</div>
+      <div class="items b-0 fg-1">BBB</div>
+      <div class="items b-0 fg-1">C</div>
+      <div class="items b-0 fg-1">DEF</div>
+  </div>
+
+  <p>basis + width</p>
+  <div class="flex-container">
+      <div class="items w100 fg-2">AA</div>
+     <div class="items w100 fg-2">BBB</div>
+     <div class="items w100 fg-2">CCC</div>
+     <div class="items w100 fg-2">DEF</div>
+ </div>
+</div>
 
       <div class="flex-grow">
         <p>flex-grow:0</p>
