@@ -13,8 +13,10 @@ Criado um template para demonstrar esses projetos.
 - [x] Formulário Login
 - [x] Home Instagram
 - [x] Uma Lâmpada
-- [x] Desafios Código
+- [ ] Desafios Código
 - [x] Curso em Vídeo
+- [ ] DIO + Spread Fullstack Developer
+- [ ] XPEducação 
 - [x] Jogo da Memória
 - [x] Jogo da Velha
 - [x] Jogo Lost Decade
