@@ -29,6 +29,7 @@ Criado um template para demonstrar esses projetos.
 - [ ] responsividade
 - [ ] favicon
 - [ ] páginas para conteúdos
+- [ ] ícone de esconder menu
 
 #### Referências 
 - [web.dev / Learn Responsive Design](https://web.dev/learn/design/)
