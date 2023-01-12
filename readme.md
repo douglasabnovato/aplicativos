@@ -22,6 +22,7 @@ Criado um template para demonstrar esses projetos.
 - [x] Jogo Pedra Papel e Tesoura
 - [x] Jogo da Cobra 
 - [x] Driven Aplicações
+- [x] Rocketseat - Desafio HTML
 
 #### Requisitos
 
