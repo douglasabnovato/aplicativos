@@ -16,13 +16,14 @@ Criado um template para demonstrar esses projetos.
 - [x] Desafios Código
 - [x] Curso em Vídeo
 - [x] DIO + Spread Fullstack Developer
+- [x] Driven Aplicações
+- [x] Rocketseat - Desafio HTML
 - [x] Jogo da Memória
 - [x] Jogo da Velha
 - [x] Jogo Lost Decade
 - [x] Jogo Pedra Papel e Tesoura
 - [x] Jogo da Cobra 
-- [x] Driven Aplicações
-- [x] Rocketseat - Desafio HTML
+- [x] Jogo Mario Bros
 
 #### Requisitos
 
