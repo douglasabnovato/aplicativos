@@ -8,7 +8,7 @@ const getBanco = () => {
 
 const bancoTemp = (nome, moedas, estrelas, tempo, pontuacao) => {
 
-    let banco = getBanco(); 
+    let banco = getBanco();
 
     let dados = {
         nomeJogador: nome,
