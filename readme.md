@@ -29,7 +29,7 @@ Criado um template para demonstrar esses projetos.
 
 - [ ] design personalizado
 - [ ] responsividade
-- [ ] favicon
+- [ ] favicon: mudar conforme aplicativo carregado
 - [ ] páginas para conteúdos
 - [ ] ícone de [esconder menu](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown)
 
