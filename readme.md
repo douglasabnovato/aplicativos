@@ -24,6 +24,7 @@ Criado um template para demonstrar esses projetos.
 - [x] Jogo Pedra Papel e Tesoura
 - [x] Jogo da Cobra 
 - [x] Jogo Mario Bros
+- [ ] Receita : fazer o fluxo em todas as páginas
 
 #### Requisitos
 
